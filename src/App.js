@@ -2,6 +2,7 @@ import Header from "./components/Header/index"
 import './App.css';
 import Main from "./components/Main";
 import Aboutus from "./components/Aboutus";
+import Problem from "./components/problem";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <Main />
       <Aboutus />
+      <Problem />
     </div>
   );
 }

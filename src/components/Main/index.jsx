@@ -5,7 +5,7 @@ import "./Main.scss"
 
 const Main = () => {
   return (
-    <div>
+    <div id='opop'>
     {/* <div className='hands'>
         <img src={hands} alt="" />
     </div> */}
@@ -22,10 +22,11 @@ const Main = () => {
             </h1>
             <div className='btn'>
                 <button className='btn1'>
-                    talk to us
-                </button>
+                <a href="https://web.telegram.org/k/#@iwomea">
+                    Talk to us!
+                    </a> </button>
                 <button className='btn2'>
-                    our contacts
+                    Our contacts
                 </button>
             </div>
         </div>

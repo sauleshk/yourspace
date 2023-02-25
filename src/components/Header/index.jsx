@@ -10,15 +10,18 @@ const Header = () => {
             <span className='pop'>PACE</span>
         </div>
         <div className='nav'>
+            <nav>
             <ul>
-                <li>Home</li>
-                <li>About us</li>
-                <li>your problem</li>
-                <li>talk to us</li>
+                <li><a href="#opop"> Home </a></li>
+                <li><a href="#popo">About us </a></li>
+                
+                <li>Your problem</li>
+                <li>Talk to us</li>
             </ul>
+            </nav>
         </div>
-        <div className='form'>
-            <input type="text"  id="elastic" class="search-txt" placeholder='search...' />
+        <div className='login'>
+            <button>  LogIn </button>
         </div>
     </div>
   )

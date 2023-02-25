@@ -1,0 +1,59 @@
+.aboutUs {
+  margin-top: 200px;
+  margin-left: 50px;
+  margin-right: 50px;
+
+  display: flex;
+  gap: 20px;
+  // justify-content: space-around;
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+
+    .friend {
+      border: 1px solid black;
+      padding: 50px 70px;
+      transition: all 0.3s ease-in-out;
+      background-color: rgb(236, 236, 236);
+
+      &:hover {
+        box-shadow: 1px 5px 4px;
+        transform: translateY(-10px);
+      }
+    }
+
+    .school {
+      border: 1px solid black;
+      padding: 50px 70px;
+      transition: all 0.3s ease-in-out;
+      background-color: rgb(236, 236, 236);
+
+      &:hover {
+        box-shadow: 1px 5px 4px;
+        transform: translateY(-10px);
+      }
+    }
+
+    .fam {
+      border: 1px solid black;
+      padding: 50px 70px;
+      transition: all 0.3s ease-in-out;
+      background-color: rgb(236, 236, 236);
+
+      &:hover {
+        box-shadow: 1px 5px 4px;
+        transform: translateY(-10px);
+      }
+    }
+  }
+
+  h1 {
+    color: rebeccapurple;
+  }
+
+  p {
+    width: 500px;
+  }
+}
