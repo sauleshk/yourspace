@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif; 
+}
+
+.hands{
+    align-items: center;
+} img {
+    // background-image: url(https://phonoteka.org/uploads/posts/2021-03/1616521153_24-p-fon-dlya-prezentatsii-psikhologiya-25.jpg);
+    // position: relative;
+    width: 100%;
+    height: 150vh;
+    
+}
+
+.problems {
+    width: 500px;
+    // width: 100%;
+    // height: 100%;
+    position: absolute;
+    top: 200px;
+    left: 150px;
+
+    h1 {
+        font-size: 60px;
+        width: 400px;
+        color: #181f45;;
+    }
+    .btn {
+        display: flex;
+        gap: 10px;
+
+        button {
+            // background-color:#3f51b5;
+            border: #3f51b5 ;
+            // color: #ffffff;
+            padding: 15px 50px;
+            border-radius: 30px;
+            gap: 10px;
+        }
+
+        .btn1 {
+            background-color:#3f51b5;
+            color: #ffffff;
+
+            &:hover {
+            background-color:#ffffff;
+            color: #3f51b5;
+        transition: all .3s linear;
+
+            }
+
+        }
+    }
+    .btn2 {
+        background-color:#ffffff;
+        color: #3f51b5;
+
+        &:hover{
+            background-color: #3f51b5;
+            color: #ffffff;
+        transition: all .3s linear;
+
+        }
+    }
+}
+
+.parallax {
+    background-image: url(https://phonoteka.org/uploads/posts/2021-03/thumbs/1616521202_53-p-fon-dlya-prezentatsii-psikhologiya-55.jpg);
+    background-repeat: no-repeat;
+    background-size: 1400px;
+    height: 700px;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 60px;
+    align-items: center;
+    position: relative;
+}
+.parallax .mask {
+    position: absolute;
+    // width: 100%;
+    // height: 100%;
+    // background: rgba(0,0,0,.6);
+    z-index: 2;
+}
+.parallax h1 {
+    z-index: 3;
+}
