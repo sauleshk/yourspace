@@ -1,16 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { Link, useParams } from 'react-router-dom'
 
 import styles from './Gift.module.scss'
 
-const GiftItem = () => {
+const GiftItem = ({item, id}) => {
+
   return (
-    <div className={styles.giftItem}>
+    <div className={styles.giftItem} key={id}>
         <div className={styles.giftItem_top}>
-            <img src="https://emberint.ru/wp-content/uploads/2017/11/horoshij-psiholog-1.png" alt="" />
+            <img src={item.image} alt="" />
         </div>
         <div className={styles.giftItem_content}>
-            <h3>title</h3>
-            <span>500</span>
+            <h3>{item.title}</h3>
+            <span>{item.price}</span>
         </div>
         <div className={styles.giftItem_bottom}>
             <div className={styles.giftItem_userTools}>
@@ -18,7 +20,9 @@ const GiftItem = () => {
                 <button>basket</button>
             </div>
             <div className={styles.giftItem_seeAll}>
-                <button>see All</button>
+                <Link to={`/gifts/${id}`}>
+                    <button>see All</button>
+                </Link>
             </div>
         </div>
     </div>

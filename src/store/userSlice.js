@@ -2,6 +2,8 @@ import { createSlice } from '@reduxjs/toolkit'
 
 const initialState = {
   user: null,
+  amount: [],
+  totalAmount: 0,
 }
 
 export const userSlice = createSlice({
@@ -11,6 +13,7 @@ export const userSlice = createSlice({
     setUser: (state, action) => {
         state.user = action.user
       },
+
   },
 })
 

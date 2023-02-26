@@ -73,3 +73,10 @@ span {
     color: #3f51b5;
 
 }
+
+
+@media screen and (max-width:320px) {
+    .header {
+        width: 100%;
+    }
+}

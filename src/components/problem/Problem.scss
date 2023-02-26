@@ -1,3 +1,9 @@
+@media screen and (max-width: 400px) {
+  .card {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+  }
+}
 .plp {
   margin-top: 300px;
   text-align: center;
@@ -20,6 +26,7 @@
     // flex-direction: column;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    // grid-template-columns: repeat(auto-fill, 40%);
     gap: 50px;
     // width: 200px;
 
@@ -114,3 +121,5 @@
     margin: 0;
   }
 }
+
+

@@ -1,5 +1,4 @@
 import React from 'react'
-import { hands } from '../../assets'
 import "./Main.scss"
 
 const Main = () => {

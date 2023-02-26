@@ -1,0 +1,22 @@
+.backimage {
+    position: relative;
+    width: 500px;
+    left: 500px;
+    top: 90px;
+
+    img {
+        width: 500px;
+        height: 500px;
+    }
+}
+
+.text {
+    position: absolute;
+    z-index: 23432234;
+    color: #263477;
+    font-size: 30px;
+    margin: 70px;
+    p {
+        width: 300px;
+    }
+}
