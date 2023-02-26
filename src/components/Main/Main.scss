@@ -18,12 +18,13 @@
 }
 
 .problems {
-    width: 500px;
-    // width: 100%;
+    max-width: 1240px;
+    width: 100%;
+    padding-left: 130px;
     // height: 100%;
-    position: absolute;
-    top: 300px;
-    left: 150px;
+    // position: absolute;
+    // top: 300px;
+    // right: 0px;
 
     h1 {
         font-size: 60px;
@@ -81,8 +82,9 @@
 
 .parallax {
     background-image: url(https://phonoteka.org/uploads/posts/2021-03/thumbs/1616521202_53-p-fon-dlya-prezentatsii-psikhologiya-55.jpg);
-    background-repeat: no-repeat;
-    background-size: 1400px;
+    // background-repeat: no-repeat;
+
+    background-size: cover;
     height: 700px;
     background-attachment: fixed;
     display: flex;

@@ -10,11 +10,7 @@ const Main = () => {
     </div> */}
 
     <div className="parallax">
-    <div className="mask"></div>
-    </div>
-
-
-    <div>
+        <div className="mask"></div>
         <div className='problems'>
             <h1>
                 u have no one to talk to?
@@ -29,6 +25,11 @@ const Main = () => {
                 </button>
             </div>
         </div>
+    </div>
+
+
+    <div>
+        
     </div>
     </div>
   )
