@@ -1,14 +1,23 @@
 import Header from "./components/Header/index"
 import './App.css';
-import Main from "./components/Main";
-import Aboutus from "./components/Aboutus";
-import Problem from "./components/problem";
 import { Route, Routes, } from "react-router-dom";
-import HomePage from "./Auth/HomePage";
-import RegisterPage from "./Auth/RegisterPage";
-import LoginPage from "./Auth/LoginPage";
+import HomePage from "./pages/HomePage";
+import RegisterPage from "./pages/RegisterPage";
+import LoginPage from "./pages/LoginPage";
+import authHook from "./hooks/auth.hook";
+import { useEffect } from "react";
 
 function App() {
+  const { getMe, googleLogin } = authHook();
+
+  useEffect(() => {
+    const token = localStorage.getItem("token");
+
+    if (token) {
+      googleLogin();
+    }
+  }, [])
+
   return (
     <div className="App">
       <Header />
