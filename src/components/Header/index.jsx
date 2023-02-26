@@ -21,7 +21,8 @@ const Header = () => {
             </nav>
         </div>
         <div className='login'>
-            <button>  LogIn </button>
+
+            <button><a href="#lolo">LogIn</a></button>
         </div>
     </div>
   )

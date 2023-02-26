@@ -2,7 +2,6 @@ import React from 'react'
 import { hands } from '../../assets'
 import "./Main.scss"
 
-
 const Main = () => {
   return (
     <div id='opop'>
@@ -10,9 +9,9 @@ const Main = () => {
         <img src={hands} alt="" />
     </div> */}
 
-<div class="parallax">
-   <div class="mask"></div>
-</div>
+    <div className="parallax">
+    <div className="mask"></div>
+    </div>
 
 
     <div>

@@ -7,25 +7,41 @@ import "./Problem.scss";
 
 const Problem = () => {
   return (
+    <div>
+      <div className="plp">
+      <h1>What problems can we solve?</h1>
+      </div>
     <div className="aboutUs">
       <div className="card">
         <div className="friend">
-          <h1>Friendship</h1>
+          <h2>Friendship</h2>
           <p>
             namely, how to start listening to your friend if you have any
             misunderstandings
           </p>
         </div>
         <div className="school">
-          <h1>School</h1>
+          <h2>School</h2>
           <p>how to start making new friends without fear of rejection?</p>
         </div>
         <div className="fam">
-          <h1>Family</h1>
+          <h2>Family</h2>
           <p>
             how to explain your position to your family, how to set personal
             boundaries
           </p>
+        </div>
+        <div className="emo">
+          <h2>Emotional condition</h2>
+          <p></p>
+        </div>
+        <div className="rel">
+          <h2>Relationships</h2>
+          <p></p>
+        </div>
+        <div className="health">
+          <h2>Physical health</h2>
+          <p></p>
         </div>
       </div>
       {/* <h1>Who are we?</h1>
@@ -33,9 +49,10 @@ const Problem = () => {
     <p>our mission is to provide free and completely anonymous consultations to people all over Kyrgyzstan and beyond, we give them the opportunity to talk about their problems, regardless of age.</p>
     </div>
     <div>
-</div> */}
-      <SwiperNews />
+  </div> */}
+      {/* <SwiperNews /> */}
     </div>
+  </div>
   );
 };
 
