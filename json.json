@@ -1,0 +1,65 @@
+[
+    {
+      "title": "Phobia",
+      "price": "4000$",
+      "desc": "we will analyze phobias that arose as a result of any events in the past",
+      "image": "https://img.freepik.com/free-vector/big-isolated-young-man-suffering-from-the-fear-of-thunderstorm_1150-39717.jpg",
+      "id": "1"
+    },
+    {
+      "title": "Depression",
+      "price": "4500$",
+      "desc": "help you overcome depression or burnout",
+      "image": "https://cdn.pixabay.com/photo/2021/03/09/18/24/girl-6082561_960_720.png",
+      "id": "2"
+    },
+    {
+      "title": "Insecure",
+      "price": "3000$",
+      "desc": "we will help you become more confident",
+      "image": "https://img.freepik.com/free-vector/low-self-esteem-illustration_23-2148748135.jpg",
+      "id": "3"
+    },
+    {
+      "title": "Loneliness",
+      "price": "1500$",
+      "desc": "we will help you learn to be alone with yourself",
+      "image": "https://img.freepik.com/free-vector/a-heartbroken-woman-sitting-in-the-house-embracing-him_1150-40744.jpg?size=338&ext=jpg&ga=GA1.2.1212852497.1670611522&semt=sph",
+      "id": "4"
+    },
+    {
+      "title": "title 5",
+      "price": "price 5",
+      "desc": "desc 5",
+      "image": "image 5",
+      "id": "5"
+    },
+    {
+      "title": "title 6",
+      "price": "price 6",
+      "desc": "desc 6",
+      "image": "image 6",
+      "id": "6"
+    },
+    {
+      "title": "title 7",
+      "price": "price 7",
+      "desc": "desc 7",
+      "image": "image 7",
+      "id": "7"
+    },
+    {
+      "title": "title 8",
+      "price": "price 8",
+      "desc": "desc 8",
+      "image": "image 8",
+      "id": "8"
+    },
+    {
+      "title": "title 9",
+      "price": "price 9",
+      "desc": "desc 9",
+      "image": "image 9",
+      "id": "9"
+    }
+  ]
