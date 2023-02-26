@@ -1,9 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+import styles from './reg.module.scss'
+
 const RegisterPage = () => {
   return (
-    <div>
+    <div className={styles.register}>
         <h1>Register</h1>
 
         <p>

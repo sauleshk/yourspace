@@ -1,8 +1,10 @@
 import React from 'react'
 import { app } from '../firebase';
 import { getAuth, createUserWithEmailAndPassword, GoogleAuthProvider, signInWithCredential, signInWithPopup } from "firebase/auth";
+import { setUser } from '../store/userSlice';
 
 const authHook = () => {
+
     const auth = getAuth(app);
     const provider = new GoogleAuthProvider();
 
@@ -14,9 +16,10 @@ const authHook = () => {
 
             if (token) {
                 localStorage.setItem("token", token)
+                
             }
 
-            console.log(user)
+            console.log(user) 
         } catch(error) {
             const errorCode = error.code;
             const errorMessage = error.message;
@@ -29,6 +32,8 @@ const authHook = () => {
             const credential = GoogleAuthProvider.credentialFromResult(result);
             const token = credential.accessToken;
             const user = result.user;
+            // setUser(user)
+            console.log(user);
 
             if (token) {
                 localStorage.setItem("token", token)
