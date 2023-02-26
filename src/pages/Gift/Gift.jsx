@@ -7,7 +7,7 @@ const Gift = () => {
   return (
     <div className={styles.gift}>
         <div className={styles.gift_top}>
-            Find your 
+        <h2>Find your diagnosis to talk to a psychologist about</h2>
         </div>
         <div className={styles.gift_content}>
             <GiftItem />
@@ -21,7 +21,8 @@ const Gift = () => {
             <GiftItem />
         </div>
         <div className={styles.gift_bottom}>
-            bottom
+            <h2>
+We hope you have resolved your issue. We will always be happy to help!</h2>
         </div>
     </div>
   )

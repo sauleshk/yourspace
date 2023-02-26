@@ -6,7 +6,7 @@ const GiftItem = () => {
   return (
     <div className={styles.giftItem}>
         <div className={styles.giftItem_top}>
-            <img src="https://phonoteka.org/uploads/posts/2021-03/thumbs/1616521202_53-p-fon-dlya-prezentatsii-psikhologiya-55.jpg" alt="" />
+            <img src="https://emberint.ru/wp-content/uploads/2017/11/horoshij-psiholog-1.png" alt="" />
         </div>
         <div className={styles.giftItem_content}>
             <h3>title</h3>

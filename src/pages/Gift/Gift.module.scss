@@ -1,6 +1,8 @@
 .gift {
     &_top {
         padding: 50px;
+        font-size: 30px;
+        color: #3a3a3d;
     }
     &_content {
         display: grid;
@@ -9,6 +11,7 @@
     }
     &_bottom {
         padding: 50px;
+        color: #3a3a3d;
 
     }
 }
@@ -22,9 +25,19 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid #000;
+    // border: 1px solid #000;
+    background-color: rgb(241, 241, 241);
     border-radius: 15px;
     gap: 5px;
+    transition: all 0.3s ease-in-out;
+
+
+    &:hover {
+        box-shadow: 1px 5px 4px  #263477;
+        
+        transform: translateY(-10px);
+      }
+
     &_top {
         max-width: 280px;
         img {

@@ -4,7 +4,7 @@ import "./Aboutus.scss"
 
 const Aboutus = () => {
   return (
-   <div id='popo' className='aboutus'>
+   <div id='About' className='aboutus'>
 {/* 
     <div className="card">
         <div className='dipression'>

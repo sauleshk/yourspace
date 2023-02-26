@@ -33,15 +33,15 @@ const Problem = () => {
         </div>
         <div className="emo">
           <h2>Emotional condition</h2>
-          <p></p>
+          <p>how to increase self-esteem, how to get out of apathy, depression</p>
         </div>
         <div className="rel">
           <h2>Relationships</h2>
-          <p></p>
+          <p>how to learn to talk about your thoughts, feelings to your partner</p>
         </div>
         <div className="health">
           <h2>Physical health</h2>
-          <p></p>
+          <p>how to start loving yourself and learn to listen to your body</p>
         </div>
       </div>
       {/* <h1>Who are we?</h1>
